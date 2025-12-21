@@ -15,6 +15,7 @@ h1, h2, h3 {
 }
 
 img {
-    border: 2px groove white;
-    margin: 10px;
+    border: 3px groove white;
+    margin: 2px;
+    border-radius: 2px;
 }

@@ -11,7 +11,7 @@ h1, h2, h3 {
 
 .about{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 img {

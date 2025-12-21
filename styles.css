@@ -1,5 +1,12 @@
 body{
-    background-color: #C57B57;
+    background-color: #F7DBA7;
+    font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #251605;
+    font-family: "Playfair Display", serif;
 }
 
 .about{
@@ -9,5 +16,5 @@ body{
 
 img {
     border: 2px groove white;
-    margin: 7px;
+    margin: 10px;
 }

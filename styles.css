@@ -6,3 +6,8 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+img {
+    border: 2px groove white;
+    margin: 7px;
+}

@@ -19,3 +19,11 @@ img {
     margin: 2px;
     border-radius: 4px;
 }
+p {
+    line-height: 10px;
+    color: #C57B57;
+}
+
+#tag {
+    text-align: right;
+}

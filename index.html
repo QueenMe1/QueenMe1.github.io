@@ -5,16 +5,25 @@
   <head>
     <meta charset="utf-8">
     <title>Susan's Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" type="text/css" href="styles.css">
   </head>
   
   <body>
-    <section id="hero">
+    <nav id="nav">
+      <button class="nav-bar">&#9776;</button>
+
+      <div class="nav-links">
+          <a href="index.html" id="onPage">Home</a>
+          <a href=""></a>
+      </div>
+    </nav>
+    <header id="hero">
       <h1>Susan Olayemi</h1>
-      <p class="p">
-        Cybersecurity Student blending web development, systems, and secure software design.
+      <p class="p" id="tagline">
+        <span>Cybersecurity • Systems • Web Development</span>
       </p>
-    </section>
+    </header>
  
     <section id="purpose">
       <h2>Purpose:</h2>
@@ -26,44 +35,65 @@
         and software enginerring internships.
       </p>
     </section>
-    
-    <h2>About Me</h2>
-    <section class="about">
-      <img src="media/SusanOlayemi_3611.jpg" alt="Image of Susan Olayemi">
-      <p class="p">
-        I'm Susan, an honors and accelerated cybersecurity student at RIT with a builder's mindset.<br>
-        I'm most interested in understanding how systems work end to end,<br>
-        from how interfaces are designed to how applications run and how they are secured.<br>
-        I enjoy learning by building, breaking and improving,<br>
-        and I'm motivated by creating technology that's both reliable and human.
-      </p>
+
+    <hr>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="ab">
+        <img src="media/SusanOlayemi_3611.jpg" alt="Image of Susan Olayemi">
+        <p class="p">
+          I'm Susan, an honors and accelerated cybersecurity student at RIT with a builder's mindset.<br>
+          I'm most interested in understanding how systems work end to end,<br>
+          from how interfaces are designed to how applications run and how they are secured.<br>
+          I enjoy learning by building, breaking and improving,<br>
+          and I'm motivated by creating technology that's both reliable and human.
+        </p>
+      </div>
     </section>
 
-    <section id="csec">
-      <h2>Cybersecurity Focus</h2>
-      <p class="p">
-        My security interest are rooted in hands-on learning and practical applications.
-        I've worked with security-focused tooling and environments including Nmap, Wireshark, SELinux tools,
-        Sysinternals and Windows security utilities such as Group Policy and Event Viewer. I've built and secured 
-        Windows and Linux virtual machines, configuring services such as web, file,email, and logging servers
-        to better understand system behavior and risk.
-      </p>
+    <hr>
+
+    <section>
+      <h2>Focus Areas</h2>
+      <div id="skills">
+        <div class="card">
+          <h2>Cybersecurity Focus</h2>
+          <p class="p">
+            My security interest are rooted in hands-on learning and practical applications.
+            I've worked with security-focused tooling and environments including Nmap, Wireshark, SELinux tools,
+            Sysinternals and Windows security utilities such as Group Policy and Event Viewer. I've built and secured 
+            Windows and Linux virtual machines, configuring services such as web, file,email, and logging servers
+            to better understand system behavior and risk.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Web Development</h2>
+          <p class="p">
+            I build clean, responsive interfaces using HTML, CSS, and JavaScript, with an emphasis on usability and clarity.
+            My web development experience helps me think ut security from user's perspective,
+            how design choices, client-side logic, and data flow affect application safety.
+            I value accessible, well-stuructured front ends that support secure bak-end behavior.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Systems and Software Engineering</h2>
+          <p class="p">
+
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section id="web">
-      <h2>Web Development</h2>
-      <p class="p">
+    <hr>
 
+    <footer>
+      <p>
+        &copy; 2026 Susan Olayemi
       </p>
-    </section>
-
-    <section id="sys">
-      <h2>Systems and Software Enginerring</h2>
-      <p class="p">
-
-      </p>
-    </section>
-  
+    </footer>
 
   </body>
 </html>

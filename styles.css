@@ -91,6 +91,14 @@ hr {
     margin-top: 3rem;
 }
 
+#far {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
 #tagline {
     margin-top: 0.3rem;
     color: #D6C4A3;
@@ -110,13 +118,14 @@ footer {
     border-style: groove;
 }
 
-/*@media screen and (m-width:1000px){
+@media screen and (max-width:1000px){
     .ab {
         flex-direction: column;
     }
-}*/
+}
 
 @media screen and (max-width:320px){
+
     .nav-links {
         display: none;             
         flex-direction: column;
@@ -131,7 +140,7 @@ footer {
         display: block;
         font-size: large;
         border: none;
-        background-color: #5B1420;
+        background-color: #D6C4A3;
         cursor: pointer;
     }
 

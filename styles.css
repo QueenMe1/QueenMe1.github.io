@@ -73,6 +73,7 @@ hr {
     padding: 1.75rem;
     border-radius: 14px;
     width: 320px;
+    margin-bottom: 2rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: default;   
 }
@@ -105,8 +106,50 @@ footer {
     text-align: right;
 }
 
-@media screen and (max-width:1000px){
+#onPage {
+    border-style: groove;
+}
+
+/*@media screen and (m-width:1000px){
     .ab {
         flex-direction: column;
     }
+}*/
+
+@media screen and (max-width:320px){
+    .nav-links {
+        display: none;             
+        flex-direction: column;
+        text-align: center;
+        background-color: #5B1420;
+        align-items: flex-start;
+        padding: 10px 0;
+        gap: 5px;
+    }
+
+    .nav-bar {
+        display: block;
+        font-size: large;
+        border: none;
+        background-color: #5B1420;
+        cursor: pointer;
+    }
+
+    .nav-bar:active {
+        color: #CCA43B;
+    }
+
+    .nav-links a {
+        font-size: 1rem;           
+        padding: 8px 16px;
+    }
+    
+    #nav.active .nav-links {
+        display: flex;
+    }
+
+    .ab {
+        flex-direction: column;
+    }
+    
 }

@@ -27,7 +27,7 @@ body{
     font-size: 30px;
     background: none;
     border: none;
-    color: #5B1420;
+    color: #D6C4A3;
     cursor: pointer;
     display: none; 
 }
@@ -126,6 +126,10 @@ footer {
 
 @media screen and (max-width:320px){
 
+    #nav {
+        background-color: #FAF9F7;
+    }
+
     .nav-links {
         display: none;             
         flex-direction: column;
@@ -140,12 +144,12 @@ footer {
         display: block;
         font-size: large;
         border: none;
-        background-color: #D6C4A3;
+        background-color: #5B1420;
         cursor: pointer;
     }
 
     .nav-bar:active {
-        color: #CCA43B;
+        color: #D6C4A3;
     }
 
     .nav-links a {
